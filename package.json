@@ -30,7 +30,7 @@
   "devDependencies": {
     "ajv": "^6.12.6",
     "better-ajv-errors": "^1.1.2",
-    "css-tree": "^2.2.1"
+    "css-tree": "^3.0.0"
   },
   "scripts": {
     "lint": "node test/lint",
