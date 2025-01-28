@@ -7577,7 +7577,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Display"
     ],
     "initial": "0",
     "appliesto": "flexItemsGridItemsAbsolutelyPositionedContainerChildren",
@@ -10643,7 +10643,8 @@
     "animationType": "visibility",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Display",
+      "Scalable Vector Graphics"
     ],
     "initial": "visible",
     "appliesto": "allElements",
