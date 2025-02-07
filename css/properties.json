@@ -3680,7 +3680,7 @@
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -4002,7 +4002,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "blockLevelElements",
@@ -4891,7 +4891,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "allElementsNoEffectIfDisplayNone",
@@ -6131,7 +6131,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "top",
@@ -6157,7 +6158,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "inset-block-start",
@@ -6179,7 +6181,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6195,7 +6198,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6211,7 +6215,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "inset-inline-start",
@@ -6233,7 +6238,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6249,7 +6255,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6361,7 +6368,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -7864,7 +7871,7 @@
     "animationType": "discreteButVisibleForDurationWhenAnimatedNone",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -8385,7 +8392,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "static",
     "appliesto": "allElements",
@@ -8574,7 +8581,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -10264,7 +10271,7 @@
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -10842,7 +10849,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
