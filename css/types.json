@@ -111,6 +111,7 @@
   },
   "easing-function": {
     "groups": [
+      "CSS Animations",
       "CSS Transitions",
       "CSS Types"
     ],
