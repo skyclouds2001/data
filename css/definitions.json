@@ -30,8 +30,9 @@
       "CSS Inline",
       "CSS Lengths",
       "CSS Lists and Counters",
-      "CSS Logical Properties",
+      "CSS Logical Properties and Values",
       "CSS Masking",
+      "CSS Mobile Text Size Adjustment",
       "CSS Motion Path",
       "CSS Multi-column Layout",
       "CSS Namespaces",
@@ -40,6 +41,7 @@
       "CSS Paged Media",
       "CSS Positioned Layout",
       "CSS Resolutions",
+      "CSS Rhythmic Sizing",
       "CSS Ruby",
       "CSS Scroll Anchoring",
       "CSS Scrollbars",
@@ -72,6 +74,7 @@
       "Pseudo-elements",
       "Selectors",
       "Scalable Vector Graphics",
+      "Scroll-driven Animations",
       "WebKit Extensions"
     ]
   }
