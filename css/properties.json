@@ -10868,7 +10868,7 @@
     "animationType": "notAnimatable",
     "percentages": "convertedToNumber",
     "groups": [
-      "Microsoft Extensions"
+      "CSS Viewport"
     ],
     "initial": "1",
     "appliesto": "allElements",
