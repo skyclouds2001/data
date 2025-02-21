@@ -64,7 +64,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr"
   },
   "blur()": {
-    "syntax": "blur( <length> )",
+    "syntax": "blur( <length>? )",
     "groups": [
       "Filter Effects"
     ],
@@ -72,7 +72,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/blur"
   },
   "brightness()": {
-    "syntax": "brightness( <number-percentage> )",
+    "syntax": "brightness( [ <number> | <percentage> ]? )",
     "groups": [
       "Filter Effects"
     ],
@@ -112,12 +112,20 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
   },
   "color()": {
-    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
+    "syntax": "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
   },
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
@@ -129,10 +137,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient"
   },
   "contrast()": {
-    "syntax": "contrast( [ <number-percentage> ] )",
+    "syntax": "contrast( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast"
@@ -171,10 +178,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
   },
   "drop-shadow()": {
-    "syntax": "drop-shadow( <length>{2,3} <color>? )",
+    "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow"
@@ -182,7 +188,7 @@
   "element()": {
     "syntax": "element( <id-selector> )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Images"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element"
@@ -214,22 +220,22 @@
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing",
+      "CSS Grid Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function"
   },
   "grayscale()": {
-    "syntax": "grayscale( <number-percentage> )",
+    "syntax": "grayscale( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale"
   },
   "hsl()": {
-    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -237,7 +243,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
   },
   "hsla()": {
-    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -245,16 +251,15 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
   },
   "hue-rotate()": {
-    "syntax": "hue-rotate( <angle> )",
+    "syntax": "hue-rotate( [ <angle> | <zero> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
   },
   "hwb()": {
-    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )",
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -294,10 +299,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/inset"
   },
   "invert()": {
-    "syntax": "invert( <number-percentage> )",
+    "syntax": "invert( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert"
@@ -329,9 +333,9 @@
   "leader()": {
     "syntax": "leader( <leader-type> )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "standard"
   },
   "light-dark()": {
     "syntax": "light-dark( <color>, <color> )",
@@ -423,10 +427,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklch"
   },
   "opacity()": {
-    "syntax": "opacity( [ <number-percentage> ] )",
+    "syntax": "opacity( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity"
@@ -434,7 +437,7 @@
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )",
     "groups": [
-      "CSS Backgrounds and Borders"
+      "CSS Houdini"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/paint"
@@ -448,7 +451,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )",
+    "syntax": "path( <'fill-rule'>? , <string> )",
     "groups": [
       "CSS Shapes",
       "CSS Motion Path"
@@ -465,7 +468,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )",
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )",
     "groups": [
       "CSS Shapes"
     ],
@@ -533,7 +536,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
     "groups": [
       "CSS Color"
     ],
@@ -541,7 +544,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
     "groups": [
       "CSS Color"
     ],
@@ -597,10 +600,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/round"
   },
   "saturate()": {
-    "syntax": "saturate( <number-percentage> )",
+    "syntax": "saturate( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate"
@@ -654,10 +656,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
   },
   "sepia()": {
-    "syntax": "sepia( <number-percentage> )",
+    "syntax": "sepia( [ <number> | <percentage> ]? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "Filter Effects"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia"
@@ -735,9 +736,9 @@
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "standard"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
@@ -782,7 +783,7 @@
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Custom Properties for Cascading Variables"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
