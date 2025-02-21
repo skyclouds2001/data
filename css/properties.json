@@ -9334,7 +9334,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -9366,7 +9366,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
