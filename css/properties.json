@@ -1743,7 +1743,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElementsThatGenerateAPrincipalBox",
@@ -1759,7 +1759,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2053,7 +2053,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
   },
   "backdrop-filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
@@ -4499,7 +4499,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4515,7 +4515,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4531,7 +4531,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4646,6 +4646,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Inline",
       "Scalable Vector Graphics"
     ],
     "initial": "auto",
@@ -4736,7 +4737,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule"
   },
   "filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
@@ -7457,7 +7458,7 @@
       "offset-anchor"
     ],
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": [
       "offset-position",
@@ -7486,7 +7487,7 @@
     "animationType": "position",
     "percentages": "relativeToWidthAndHeight",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -7502,7 +7503,7 @@
     "animationType": "lpc",
     "percentages": "referToTotalPathLength",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "0",
     "appliesto": "transformableElements",
@@ -7518,7 +7519,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "none",
     "appliesto": "transformableElements",
@@ -7535,7 +7536,7 @@
     "animationType": "position",
     "percentages": "referToSizeOfContainingBlock",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "normal",
     "appliesto": "transformableElements",
@@ -7551,7 +7552,7 @@
     "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -7586,7 +7587,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Display"
     ],
     "initial": "0",
     "appliesto": "flexItemsGridItemsAbsolutelyPositionedContainerChildren",
@@ -7612,7 +7613,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/orphans"
   },
   "outline": {
-    "syntax": "[ <'outline-width'> || <'outline-style'> || <'outline-color'> ]",
+    "syntax": "<'outline-width'> || <'outline-style'> || <'outline-color'>",
     "media": [
       "visual",
       "interactive"
@@ -8213,7 +8214,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-after"
   },
   "page-break-before": {
@@ -8232,7 +8233,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-before"
   },
   "page-break-inside": {
@@ -8251,7 +8252,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside"
   },
   "paint-order": {
@@ -8409,7 +8410,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
@@ -8425,7 +8426,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "positionedElementsWithADefaultAnchorElement",
@@ -8447,7 +8448,7 @@
       "position-try-order"
     ],
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": [
       "position-try-fallbacks",
@@ -8469,7 +8470,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "absolutelyPositionedElements",
@@ -8485,7 +8486,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "normal",
     "appliesto": "absolutelyPositionedElements",
@@ -8501,7 +8502,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "anchors-visible",
     "appliesto": "absolutelyPositionedElements",
@@ -9333,7 +9334,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -9365,7 +9366,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -10052,7 +10053,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Basic User Interface"
+      "CSS Overflow"
     ],
     "initial": "clip",
     "appliesto": "blockContainerElements",
@@ -10134,13 +10135,14 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-spacing-trim"
   },
   "text-transform": {
-    "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
+    "syntax": "none | [ capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Text"
+      "CSS Text",
+      "MathML"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -10542,7 +10544,7 @@
     "animationType": "length",
     "percentages": "referToLineHeight",
     "groups": [
-      "CSS Table"
+      "CSS Inline"
     ],
     "initial": "baseline",
     "appliesto": "inlineLevelAndTableCellElements",
@@ -10652,7 +10654,8 @@
     "animationType": "visibility",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Display",
+      "Scalable Vector Graphics"
     ],
     "initial": "visible",
     "appliesto": "allElements",
@@ -10662,7 +10665,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
   },
   "white-space": {
-    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> ]",
+    "syntax": "normal | pre | pre-wrap | pre-line | <'white-space-collapse'> || <'text-wrap-mode'>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -10860,18 +10863,18 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/z-index"
   },
   "zoom": {
-    "syntax": "normal | reset | <number> | <percentage>",
+    "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
-    "percentages": "no",
+    "percentages": "convertedToNumber",
     "groups": [
-      "Microsoft Extensions"
+      "CSS Viewport"
     ],
-    "initial": "normal",
+    "initial": "1",
     "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "computed": "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber",
+    "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/zoom"
   }
